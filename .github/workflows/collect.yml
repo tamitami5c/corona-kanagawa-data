@@ -3,7 +3,7 @@ name: collect
 
 on:
   schedule:
-    - cron: "0 15 * * *"
+    - cron: "*/15 * * * *"
 
 jobs:
   my-job:
