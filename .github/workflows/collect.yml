@@ -25,8 +25,8 @@ jobs:
         python main.py
     - name: commit
       run: |
-        git config --global user.name "BOT-tamitami"
+        git config --global user.name "[BOT]tamitami"
         git config --global user.email "68597117+tamitami5c@users.noreply.github.com"
         git add -A
         git commit -m "[BOT]データ更新"
-        git push origin master
+        git push origin main
